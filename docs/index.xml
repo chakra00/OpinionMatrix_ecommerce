@@ -24,7 +24,7 @@
     <h1>Shop Your Party Merchandise</h1>
     <div class="products">
       <div class="product">
-        <img src="tshirt.png" alt="T-Shirt">
+        <img src="tshirt.jpg" alt="T-Shirt">
         <h3>T-Shirt</h3>
         <label>Choose Design:</label>
         <select>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="product">
-        <img src="cap.png" alt="Cap">
+        <img src="563.png" alt="Cap">
         <h3>Party Cap</h3>
         <label>Upload Party Symbol:</label>
         <input type="file" id="cap-upload">
