@@ -17,14 +17,13 @@
     .modal { display: none; position: fixed; top: 0; left: 0; width:100vw; height:100vh; background: rgba(0,0,0,0.45); justify-content: center; align-items: center; }
     .modal-content { background: #fff; padding: 32px 60px; border-radius: 8px; color: #264653; text-align: center; font-size: 1.24em; }
   </style>
-  </meta>
 </head>
 <body>
   <div class="container">
     <h1>Shop Your Party Merchandise</h1>
     <div class="products">
       <div class="product">
-        <img src="tshirt.jpg" alt="T-Shirt">
+        <img src="tshirt.jpg" alt="T-Shirt" />
         <h3>T-Shirt</h3>
         <label>Choose Design:</label>
         <select>
@@ -33,24 +32,24 @@
           <option>Hoodie</option>
         </select>
         <label>Upload Party Symbol:</label>
-        <input type="file" id="tshirt-upload"/>
+        <input type="file" id="tshirt-upload" />
         <span class="offer">Offer: Buy 2 Get 1 Free</span>
         <div class="actions">
           <button onclick="showModal()">Buy Now</button>
         </div>
       </div>
       <div class="product">
-        <img src="563.png" alt="Cap">
+        <img src="563.jpg" alt="Cap" />
         <h3>Party Cap</h3>
         <label>Upload Party Symbol:</label>
-        <input type="file" id="cap-upload"/>
+        <input type="file" id="cap-upload" />
         <span class="offer">Flat 30% Off</span>
         <div class="actions">
           <button onclick="showModal()">Buy Now</button>
         </div>
       </div>
       <div class="product">
-        <img src="flag.png" alt="Party Flag">
+        <img src="flag.png" alt="Party Flag" />
         <h3>Party Flag</h3>
         <span class="offer">Special Combo Offer</span>
         <div class="actions">
@@ -60,16 +59,16 @@
     </div>
     <div style="text-align:center; margin-top:30px;">
       <label>Gross Order Quantity:</label>
-      <input type="number" min="1" value="1" style="width:48px;"/>
+      <input type="number" min="1" value="1" style="width:48px;" />
       <button onclick="showModal()">Order Bulk</button>
     </div>
   </div>
   <div class="modal" id="comingSoon">
     <div class="modal-content">
       <b>Coming Soon</b>
-      <br>
+      <br />
       This feature will be available shortly!
-      <br><br>
+      <br /><br />
       <button onclick="hideModal()">Close</button>
     </div>
   </div>
@@ -80,7 +79,6 @@
     function hideModal() {
       document.getElementById('comingSoon').style.display = 'none';
     }
-    // All buy/upload actions call showModal()
   </script>
 </body>
 </html>
