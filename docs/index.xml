@@ -33,7 +33,7 @@
           <option>Hoodie</option>
         </select>
         <label>Upload Party Symbol:</label>
-        <input type="file" id="tshirt-upload">
+        <input type="file" id="tshirt-upload"/>
         <span class="offer">Offer: Buy 2 Get 1 Free</span>
         <div class="actions">
           <button onclick="showModal()">Buy Now</button>
@@ -43,7 +43,7 @@
         <img src="563.png" alt="Cap">
         <h3>Party Cap</h3>
         <label>Upload Party Symbol:</label>
-        <input type="file" id="cap-upload">
+        <input type="file" id="cap-upload"/>
         <span class="offer">Flat 30% Off</span>
         <div class="actions">
           <button onclick="showModal()">Buy Now</button>
@@ -60,7 +60,7 @@
     </div>
     <div style="text-align:center; margin-top:30px;">
       <label>Gross Order Quantity:</label>
-      <input type="number" min="1" value="1" style="width:48px;">
+      <input type="number" min="1" value="1" style="width:48px;"/>
       <button onclick="showModal()">Order Bulk</button>
     </div>
   </div>
